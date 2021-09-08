@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="">
+<html lang="it" dir="">
 
 <head>
     <meta charset="UTF-8" />
@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
     <link href="../src/dist-assets/css/themes/lite-purple.min.css" rel="stylesheet" />
     <link href="../src/dist-assets/css/plugins/perfect-scrollbar.min.css" rel="stylesheet" />
+    <link href="../src/dist-assets/css/main.css" rel="stylesheet" />
 </head>
 
 <body class="text-left">
@@ -286,7 +287,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6 mb-4 align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
+            <div class="col-md-8 mb-4 align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
                 <div class="card text-left">
                     <div class="card-body ">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -329,20 +330,83 @@
                                                     </label>
                                                     <input id="gridCheck1" type="checkbox" />
                                                 </div>
-                                                <input class="form-control form-control-rounded" id="exampleInputEmail2" type="email" placeholder="Inserisci link Tracking" />
+                                                <input class="form-control form-control-rounded" id="exampleInputEmail2" type="text" placeholder="Inserisci link Tracking" />
                                             </div>
                                             <div class="col-md-12">
                                                 <HR size="5" width="100%" align="center">
                                             </div>
-                                            <div class="card-title mb-4">Condivisione</div>
-                                            
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="customInput">
-                                                <label class="custom-file-label" for="customInput">Select file</label>
+                                            <div class="card-title md-3">Condivisione</div>
+                                                
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-6">                                
+                                                            <div class="row">
+                                                                <div class="col-8">
+                                                                    Immagine condivisione social
+                                                                    <div class="form-group">        
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control form-control-rounded" style="background-color: #FFFFFF" readonly>
+                                                                            <span class="input-group-btn">
+                                                                                <span class="btn btn-default btn-file">
+                                                                                    Scegli<input type="file" id="imgInp">
+                                                                                </span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div>
+                                                                        Anteprima<br>
+                                                                        immagine
+                                                                    </div>
+                                                                    <div class="frame-profil-photo">
+                                                                        <img class="profil-photo" id='img-upload'/>
+                                                                    </div>                                                                     
+                                                                                                                                    
+                                                                </div>
+                                                            </div>
+                                                            Dimensioni consigliate 1200x630px, formato immagine: .png
+                                                                                                                       
+                                                        </div>
+                                                        <div class="col-6">                                
+                                                            <div class="row">
+                                                                <div class="col-8">
+                                                                    Immagine condivisione social
+                                                                    <div class="form-group">        
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control form-control-rounded" style="background-color: #FFFFFF" readonly>
+                                                                            <span class="input-group-btn">
+                                                                                <span class="btn btn-default btn-file">
+                                                                                    Scegli<input type="file" id="imgInp">
+                                                                                </span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div>
+                                                                        Anteprima<br>
+                                                                        immagine
+                                                                    </div>
+                                                                    <div class="frame-profil-photo">
+                                                                        <img class="profil-photo" id='img-upload'/>
+                                                                    </div>                                                                     
+                                                                                                                                    
+                                                                </div>
+                                                            </div>
+                                                            Dimensioni consigliate 1200x630px, formato immagine: .png
+                                                                                                                       
+                                                        </div>
+                                                    </div>
+                                                </div>                            
                                             </div>
+
+
                                             
-                                                <button class="btn btn-primary">Submit</button>
-                                            </div>
+                                            
+                                        </div>
+                                        <div id  class="frame-btn">
+                                            <button class="btn btn-primary">Salva</button>
                                         </div>
                                     </form>
                                 </div>                             
@@ -483,7 +547,9 @@
     </div>
     <!-- ============ Search UI End ============= -->
     <script src="../src/dist-assets/js/plugins/jquery-3.3.1.min.js"></script>
+    
     <script src="../src/dist-assets/js/plugins/bootstrap.bundle.min.js"></script>
+    
     <script src="../src/dist-assets/js/plugins/perfect-scrollbar.min.js"></script>
     <script src="../src/dist-assets/js/scripts/script.min.js"></script>
     <script src="../src/dist-assets/js/scripts/sidebar.large.script.min.js"></script>
@@ -491,6 +557,8 @@
     <script src="../src/dist-assets/js/scripts/echart.options.min.js"></script>
     <script src="../src/dist-assets/js/scripts/dashboard.v1.script.min.js"></script>
     <script src="../src/dist-assets/js/scripts/customizer.script.min.js"></script>
+    <script src="../src/src-assets/js/plugins/browser.js"></script>
+
 </body>
 
 </html>
